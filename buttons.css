@@ -1,0 +1,80 @@
+.btn {
+    font-family: inherit;
+    background: #7B61FF;
+    border-radius: 12px;
+    color: #fff;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: #6344ff;
+}
+
+.btn__header {
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 600;
+
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.btn__search {
+    padding: 18px;
+     width: 60px;
+     height: 60px;
+}
+
+.button-more {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 105px;
+    height: 44px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 4px;
+    background: #F6F4FF;
+    color: #5243C2;
+    border-radius: 12px;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.button-more:hover {
+    background: #dcd8f1;
+}
+
+.about__button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 133px;
+    padding: 10px;
+    margin-right: 4px;
+    background: #F6F4FF;
+    color: #5243C2;
+    font-size: 16px;
+    border-radius: 12px;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.about__button:hover {
+    background: #dcd8f1;
+}
+
+.subscribe__button {
+    width: 72px;
+    height: 72px;
+    padding: 24px;
+    background: #7B61FF;
+    border-radius: 12px;
+}
+
+.subscribe__button:hover {
+    background: #6344ff;
+}
